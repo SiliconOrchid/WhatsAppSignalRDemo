@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "AzureSignalRConnectionString": "Endpoint=https://{your SignalRService Endpoint}.service.signalr.net;AccessKey={Your Access Key};Version=1.0;",
+    "TwilioAccountSid": "{Your Twilio Account Sid - From DashBoard}",
+    "TwilioAuthToken": "{Your Twilio Auth Token - From Dashboard}",
+    "TwilioWhatsAppPhoneNumber": "whatsapp:+{Your Twilio Sandbox Phone Number - From Dashboard}"
+  },
+  "Host": {
+    "LocalHttpPort": 7071, 
+    "CORS": "https://localhost:44397",
+    "CORSCredentials": true
+  }
+}
